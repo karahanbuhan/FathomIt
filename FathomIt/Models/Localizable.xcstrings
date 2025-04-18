@@ -75,13 +75,13 @@
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Submit Answer"
+            "value" : "Answer"
           }
         },
         "tr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Cevabı Gönder"
+            "value" : "Cevapla"
           }
         }
       }
@@ -166,7 +166,7 @@
         "tr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "FathomIt (v1.0.0)"
+            "value" : "KulaçAç (v1.0.0)"
           }
         }
       }

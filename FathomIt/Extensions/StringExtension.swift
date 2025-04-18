@@ -1,13 +1,5 @@
 import Foundation
 
-/*
-extension String {
-    var localized: String {
-        return NSLocalizedString(self, tableName: nil, bundle: Bundle.main, value: "", comment: "")
-    }
-}
-*/
-
 extension String {
     func localized() -> String {
         let lanCode = UserDefaults.standard.string(forKey: "selectedLanguage")?.lowercased() ?? "en"

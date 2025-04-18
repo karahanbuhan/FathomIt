@@ -56,12 +56,13 @@ class QuizEngine {
         return (correct, accuracy, message)
     }
     
-    // MARK: - Private helpers
+    // MARK: - Private score and accuracy
     private func updateScore(accuracy: Double) {
         totalAccuracy += accuracy
         questionsAnswered += 1
     }
     
+    // MARK: - Adaptive learning
     private func adjustDifficulty(accuracy: Double) {
         guard let currentCategory = currentCategory else { return }
         
@@ -84,38 +85,50 @@ class QuizEngine {
         }
     }
     
-    private func generateQuestionFromCurrentContext() -> Question {
-        // Fix: Use self.currentCategory and self.currentUnit
-        guard let currentCategory = self.currentCategory,
-              let currentUnit = self.currentUnit,
-              let units = ConversionEngine.unitCategories[currentCategory] else {
-            fatalError("Invalid state: current category or unit not set properly")
+    func generateQuestionFromCurrentContext() -> Question {
+        guard let category = currentCategory,
+              let unitDict = ConversionEngine.unitCategories[category],
+              let fromUnit = unitDict.keys.randomElement(),
+              var toUnit = unitDict.keys.randomElement() else {
+            fatalError("Invalid unit setup")
         }
         
-        var toUnit = units.keys.randomElement()!
-        while toUnit == currentUnit {
-            toUnit = units.keys.randomElement()!
+        // Ensure fromUnit and toUnit are not the same
+        while fromUnit == toUnit {
+            toUnit = unitDict.keys.randomElement()!
         }
-        
-        let value = Double(Int.random(in: 1...100))
-        guard let correctAnswer = ConversionEngine.convert(value: value, from: currentUnit, to: toUnit) else {
-            fatalError("Conversion failed")
+
+        // Define sensible base unit ranges
+        let valueInBase: Double
+        switch category {
+        case .distance:
+            valueInBase = Double.random(in: 0.001...100_000) // meters
+        case .speed:
+            valueInBase = Double.random(in: 0.1...50) // m/s
+        case .directionAndAngle:
+            valueInBase = Double.random(in: 0.01...360) // degrees
+        case .time:
+            valueInBase = Double(Int.random(in: 1...172_800)) // seconds
         }
-        
-        // Localize unit names using LocalizedStringResource
-        let fromKey: String = "unit.\(currentUnit)"
-        let toKey: String = "unit.\(toUnit)"
-        
-        let fromLocalized = fromKey.localized().lowercased()
-        let toLocalized = toKey.localized().lowercased()
-        
-        // Use a localized format string
-        let format = "question.format".localized()
-        let questionText = String(format: format, Int(value), fromLocalized, toLocalized).replacingOccurrences(of: "  ", with: " ")
-        
+
+        // Convert base value to fromUnit
+        guard let fromFactor = unitDict[fromUnit],
+              let toFactor = unitDict[toUnit] else {
+            fatalError("Missing unit conversion factor")
+        }
+
+        let fromValue = (valueInBase / fromFactor).rounded(.toNearestOrAwayFromZero)
+        let valueInBaseRounded = fromValue * fromFactor
+        let correctAnswer = valueInBaseRounded / toFactor
+
+        // Build question text
+        let fromLocalized = "unit.\(fromUnit)".localized().lowercased()
+        let toLocalized = "unit.\(toUnit)".localized().lowercased()
+        let questionText = String(format: "question.format".localized(), Int(fromValue), fromLocalized, toLocalized).replacingOccurrences(of: "  ", with: " ")
+
         return Question(
-            value: value,
-            fromUnit: currentUnit,
+            value: fromValue,
+            fromUnit: fromUnit,
             toUnit: toUnit,
             correctAnswer: correctAnswer,
             questionText: questionText

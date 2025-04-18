@@ -35,9 +35,7 @@ class Question {
         let fromLocalized = "unit.\(fromUnit)".localized().lowercased()
         let toLocalized = "unit.\(toUnit)".localized().lowercased()
         
-        // Use the localized unit names in the question text
-        // Ensure the format string is also localized if needed, but for now, keep it simple
-        self.questionText = String(format: "question.format".localized(), Int(value), fromLocalized, toLocalized)
+        self.questionText = String(format: "question.format".localized(), Int(value), fromLocalized, toLocalized).replacingOccurrences(of: "  ", with: " ")
     }
     
     init(value: Double, fromUnit: String, toUnit: String, correctAnswer: Double, questionText: String) {
