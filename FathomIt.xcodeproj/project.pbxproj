@@ -1,0 +1,549 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		07BCCA152DB1667100A1FFEE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 07BCC9FE2DB1667000A1FFEE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 07BCCA052DB1667000A1FFEE;
+			remoteInfo = FathomIt;
+		};
+		07BCCA1F2DB1667100A1FFEE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 07BCC9FE2DB1667000A1FFEE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 07BCCA052DB1667000A1FFEE;
+			remoteInfo = FathomIt;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		07BCCA062DB1667000A1FFEE /* FathomIt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FathomIt.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		07BCCA142DB1667100A1FFEE /* FathomItTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FathomItTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		07BCCA1E2DB1667100A1FFEE /* FathomItUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FathomItUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		07BCCA082DB1667000A1FFEE /* FathomIt */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = FathomIt;
+			sourceTree = "<group>";
+		};
+		07BCCA172DB1667100A1FFEE /* FathomItTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = FathomItTests;
+			sourceTree = "<group>";
+		};
+		07BCCA212DB1667100A1FFEE /* FathomItUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = FathomItUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		07BCCA032DB1667000A1FFEE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07BCCA112DB1667100A1FFEE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07BCCA1B2DB1667100A1FFEE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		07BCC9FD2DB1667000A1FFEE = {
+			isa = PBXGroup;
+			children = (
+				07BCCA082DB1667000A1FFEE /* FathomIt */,
+				07BCCA172DB1667100A1FFEE /* FathomItTests */,
+				07BCCA212DB1667100A1FFEE /* FathomItUITests */,
+				07BCCA072DB1667000A1FFEE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		07BCCA072DB1667000A1FFEE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				07BCCA062DB1667000A1FFEE /* FathomIt.app */,
+				07BCCA142DB1667100A1FFEE /* FathomItTests.xctest */,
+				07BCCA1E2DB1667100A1FFEE /* FathomItUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		07BCCA052DB1667000A1FFEE /* FathomIt */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07BCCA282DB1667100A1FFEE /* Build configuration list for PBXNativeTarget "FathomIt" */;
+			buildPhases = (
+				07BCCA022DB1667000A1FFEE /* Sources */,
+				07BCCA032DB1667000A1FFEE /* Frameworks */,
+				07BCCA042DB1667000A1FFEE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				07BCCA082DB1667000A1FFEE /* FathomIt */,
+			);
+			name = FathomIt;
+			packageProductDependencies = (
+			);
+			productName = FathomIt;
+			productReference = 07BCCA062DB1667000A1FFEE /* FathomIt.app */;
+			productType = "com.apple.product-type.application";
+		};
+		07BCCA132DB1667100A1FFEE /* FathomItTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07BCCA2B2DB1667100A1FFEE /* Build configuration list for PBXNativeTarget "FathomItTests" */;
+			buildPhases = (
+				07BCCA102DB1667100A1FFEE /* Sources */,
+				07BCCA112DB1667100A1FFEE /* Frameworks */,
+				07BCCA122DB1667100A1FFEE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				07BCCA162DB1667100A1FFEE /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				07BCCA172DB1667100A1FFEE /* FathomItTests */,
+			);
+			name = FathomItTests;
+			packageProductDependencies = (
+			);
+			productName = FathomItTests;
+			productReference = 07BCCA142DB1667100A1FFEE /* FathomItTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		07BCCA1D2DB1667100A1FFEE /* FathomItUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07BCCA2E2DB1667100A1FFEE /* Build configuration list for PBXNativeTarget "FathomItUITests" */;
+			buildPhases = (
+				07BCCA1A2DB1667100A1FFEE /* Sources */,
+				07BCCA1B2DB1667100A1FFEE /* Frameworks */,
+				07BCCA1C2DB1667100A1FFEE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				07BCCA202DB1667100A1FFEE /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				07BCCA212DB1667100A1FFEE /* FathomItUITests */,
+			);
+			name = FathomItUITests;
+			packageProductDependencies = (
+			);
+			productName = FathomItUITests;
+			productReference = 07BCCA1E2DB1667100A1FFEE /* FathomItUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		07BCC9FE2DB1667000A1FFEE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1630;
+				LastUpgradeCheck = 1630;
+				TargetAttributes = {
+					07BCCA052DB1667000A1FFEE = {
+						CreatedOnToolsVersion = 16.3;
+					};
+					07BCCA132DB1667100A1FFEE = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = 07BCCA052DB1667000A1FFEE;
+					};
+					07BCCA1D2DB1667100A1FFEE = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = 07BCCA052DB1667000A1FFEE;
+					};
+				};
+			};
+			buildConfigurationList = 07BCCA012DB1667000A1FFEE /* Build configuration list for PBXProject "FathomIt" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				tr,
+			);
+			mainGroup = 07BCC9FD2DB1667000A1FFEE;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 07BCCA072DB1667000A1FFEE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				07BCCA052DB1667000A1FFEE /* FathomIt */,
+				07BCCA132DB1667100A1FFEE /* FathomItTests */,
+				07BCCA1D2DB1667100A1FFEE /* FathomItUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		07BCCA042DB1667000A1FFEE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07BCCA122DB1667100A1FFEE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07BCCA1C2DB1667100A1FFEE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		07BCCA022DB1667000A1FFEE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07BCCA102DB1667100A1FFEE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07BCCA1A2DB1667100A1FFEE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		07BCCA162DB1667100A1FFEE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 07BCCA052DB1667000A1FFEE /* FathomIt */;
+			targetProxy = 07BCCA152DB1667100A1FFEE /* PBXContainerItemProxy */;
+		};
+		07BCCA202DB1667100A1FFEE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 07BCCA052DB1667000A1FFEE /* FathomIt */;
+			targetProxy = 07BCCA1F2DB1667100A1FFEE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		07BCCA262DB1667100A1FFEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		07BCCA272DB1667100A1FFEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+			};
+			name = Release;
+		};
+		07BCCA292DB1667100A1FFEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = FathomIt/FathomIt.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.karahanbuhan.FathomIt;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		07BCCA2A2DB1667100A1FFEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = FathomIt/FathomIt.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.karahanbuhan.FathomIt;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		07BCCA2C2DB1667100A1FFEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.karahanbuhan.FathomItTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FathomIt.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FathomIt";
+			};
+			name = Debug;
+		};
+		07BCCA2D2DB1667100A1FFEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.karahanbuhan.FathomItTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FathomIt.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FathomIt";
+			};
+			name = Release;
+		};
+		07BCCA2F2DB1667100A1FFEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.karahanbuhan.FathomItUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = FathomIt;
+			};
+			name = Debug;
+		};
+		07BCCA302DB1667100A1FFEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.karahanbuhan.FathomItUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = FathomIt;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		07BCCA012DB1667000A1FFEE /* Build configuration list for PBXProject "FathomIt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07BCCA262DB1667100A1FFEE /* Debug */,
+				07BCCA272DB1667100A1FFEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		07BCCA282DB1667100A1FFEE /* Build configuration list for PBXNativeTarget "FathomIt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07BCCA292DB1667100A1FFEE /* Debug */,
+				07BCCA2A2DB1667100A1FFEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		07BCCA2B2DB1667100A1FFEE /* Build configuration list for PBXNativeTarget "FathomItTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07BCCA2C2DB1667100A1FFEE /* Debug */,
+				07BCCA2D2DB1667100A1FFEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		07BCCA2E2DB1667100A1FFEE /* Build configuration list for PBXNativeTarget "FathomItUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07BCCA2F2DB1667100A1FFEE /* Debug */,
+				07BCCA302DB1667100A1FFEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 07BCC9FE2DB1667000A1FFEE /* Project object */;
+}
