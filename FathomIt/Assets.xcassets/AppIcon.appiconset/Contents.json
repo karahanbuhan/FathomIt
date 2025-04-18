@@ -1,61 +1,61 @@
 {
   "images" : [
     {
-      "filename" : "output 9.png",
+      "filename" : "FathomIt 16p.png",
       "idiom" : "mac",
       "scale" : "1x",
       "size" : "16x16"
     },
     {
-      "filename" : "output 8.png",
+      "filename" : "FathomIt 32p 1.png",
       "idiom" : "mac",
       "scale" : "2x",
       "size" : "16x16"
     },
     {
-      "filename" : "output 7.png",
+      "filename" : "FathomIt 32p.png",
       "idiom" : "mac",
       "scale" : "1x",
       "size" : "32x32"
     },
     {
-      "filename" : "output 6.png",
+      "filename" : "FathomIt 64p.png",
       "idiom" : "mac",
       "scale" : "2x",
       "size" : "32x32"
     },
     {
-      "filename" : "output 5.png",
+      "filename" : "FathomIt 128p.png",
       "idiom" : "mac",
       "scale" : "1x",
       "size" : "128x128"
     },
     {
-      "filename" : "output 4.png",
+      "filename" : "FathomIt 256p 1.png",
       "idiom" : "mac",
       "scale" : "2x",
       "size" : "128x128"
     },
     {
-      "filename" : "output 3.png",
+      "filename" : "FathomIt 256p.png",
       "idiom" : "mac",
       "scale" : "1x",
       "size" : "256x256"
     },
     {
-      "filename" : "output 2.png",
+      "filename" : "FathomIt 512p 1.png",
       "idiom" : "mac",
       "scale" : "2x",
       "size" : "256x256"
     },
     {
-      "filename" : "output.png",
+      "filename" : "FathomIt 512p.png",
       "idiom" : "mac",
       "scale" : "1x",
       "size" : "512x512"
     },
     {
-      "filename" : "output 1.png",
+      "filename" : "FathomIt 1024p.png",
       "idiom" : "mac",
       "scale" : "2x",
       "size" : "512x512"
