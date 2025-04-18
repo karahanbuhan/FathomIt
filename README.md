@@ -56,7 +56,7 @@ A bilingual reference for all units supported in FathomIt.
 
 ## Installation
 
-1. Download the `.dmg` release from the [Releases](#) section.
+1. Download the `.dmg` release from the [Releases](https://github.com/karahanbuhan/FathomIt/releases) section.
 2. Drag **FathomIt** into your Applications folder.
 3. Launch the app and start practicing conversions.
 
