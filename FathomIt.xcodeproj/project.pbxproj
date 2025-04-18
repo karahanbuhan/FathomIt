@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		076E78B92DB27C0F00951BB6 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 076E78B72DB27C0900951BB6 /* LICENSE */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		07BCCA152DB1667100A1FFEE /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -24,6 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		076E78B72DB27C0900951BB6 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		07BCCA062DB1667000A1FFEE /* FathomIt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FathomIt.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		07BCCA142DB1667100A1FFEE /* FathomItTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FathomItTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		07BCCA1E2DB1667100A1FFEE /* FathomItUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FathomItUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -79,6 +84,7 @@
 				07BCCA172DB1667100A1FFEE /* FathomItTests */,
 				07BCCA212DB1667100A1FFEE /* FathomItUITests */,
 				07BCCA072DB1667000A1FFEE /* Products */,
+				076E78B72DB27C0900951BB6 /* LICENSE */,
 			);
 			sourceTree = "<group>";
 		};
@@ -213,6 +219,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				076E78B92DB27C0F00951BB6 /* LICENSE in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
