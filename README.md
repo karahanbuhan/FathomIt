@@ -60,5 +60,4 @@ You can build it with Xcode yourself, clone the project then build and enjoy. I 
 ---
 
 ## License
-
-MIT License. Free to use and modify.
+[The MIT License](https://opensource.org/licenses/MIT)
