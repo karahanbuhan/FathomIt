@@ -14,6 +14,13 @@ This tool was built with simplicity, clarity, and utility in mind — perfect fo
 
 ---
 
+## Screenshots
+
+<img height="400" alt="FathomIt Example" src="https://github.com/user-attachments/assets/260e4c6d-69cf-413c-9c6e-25ff49a9f7ec" />
+<img height="400" alt="FathomIt Turkish Example" src="https://github.com/user-attachments/assets/75ca2c82-8e2d-435b-a08b-85e6d02ec2fa" />
+
+---
+
 ## Unit Conversion Cheatsheet
 
 A bilingual reference for all units supported in FathomIt.
