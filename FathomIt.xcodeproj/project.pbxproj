@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		076E78B92DB27C0F00951BB6 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 076E78B72DB27C0900951BB6 /* LICENSE */; };
+		07D11FC92DB2D26A002FFE37 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 07D11FC82DB2D266002FFE37 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,8 +31,9 @@
 /* Begin PBXFileReference section */
 		076E78B72DB27C0900951BB6 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		07BCCA062DB1667000A1FFEE /* FathomIt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FathomIt.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		07BCCA142DB1667100A1FFEE /* FathomItTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = FathomItTests.xctest; path = /Users/karahanbuhan/Desktop/FathomIt/build/Debug/FathomIt.app/Contents/PlugIns/FathomItTests.xctest; sourceTree = "<absolute>"; };
-		07BCCA1E2DB1667100A1FFEE /* FathomItUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = FathomItUITests.xctest; path = "/Users/karahanbuhan/Desktop/FathomIt/build/Debug/FathomItUITests-Runner.app/Contents/PlugIns/FathomItUITests.xctest"; sourceTree = "<absolute>"; };
+		07D11FB02DB2C0FD002FFE37 /* FathomItTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FathomItTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		07D11FB12DB2C0FD002FFE37 /* FathomItUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FathomItUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		07D11FC82DB2D266002FFE37 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -70,6 +72,7 @@
 		07BCC9FD2DB1667000A1FFEE = {
 			isa = PBXGroup;
 			children = (
+				07D11FC82DB2D266002FFE37 /* README.md */,
 				07BCCA082DB1667000A1FFEE /* FathomIt */,
 				07BCCA072DB1667000A1FFEE /* Products */,
 				076E78B72DB27C0900951BB6 /* LICENSE */,
@@ -80,6 +83,8 @@
 			isa = PBXGroup;
 			children = (
 				07BCCA062DB1667000A1FFEE /* FathomIt.app */,
+				07D11FB02DB2C0FD002FFE37 /* FathomItTests.xctest */,
+				07D11FB12DB2C0FD002FFE37 /* FathomItUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -126,7 +131,7 @@
 			packageProductDependencies = (
 			);
 			productName = FathomItTests;
-			productReference = 07BCCA142DB1667100A1FFEE /* FathomItTests.xctest */;
+			productReference = 07D11FB02DB2C0FD002FFE37 /* FathomItTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 		07BCCA1D2DB1667100A1FFEE /* FathomItUITests */ = {
@@ -146,7 +151,7 @@
 			packageProductDependencies = (
 			);
 			productName = FathomItUITests;
-			productReference = 07BCCA1E2DB1667100A1FFEE /* FathomItUITests.xctest */;
+			productReference = 07D11FB12DB2C0FD002FFE37 /* FathomItUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -199,6 +204,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				07D11FC92DB2D26A002FFE37 /* README.md in Resources */,
 				076E78B92DB27C0F00951BB6 /* LICENSE in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
