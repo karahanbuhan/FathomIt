@@ -51,6 +51,13 @@ A bilingual reference for all units supported in FathomIt.
 |                       | Seconds (")             | Saniye (Açı)           | 1/3600°             |
 |                       | Rhumb                   | Kerte                  | 11.25°              |
 |                       | Quarter                 | Rubu                   | 90°                 |
+| **Mass**              | Grams (g)               | Gram (g)               | 0.001kg             |
+|                       | Kilograms (kg)          | Kilogram (kg)          | 1kg                 |
+|                       | Metric Tonnes (t)       | Ton (t)                | 1000kg              |
+|                       | Long Tons (LT)          | Uzun Ton (LT)          | 1016.05kg           |
+|                       | Short Tons (ST)         | Kısa Ton (ST)          | 907.18kg            |
+|                       | Pounds (lb)             | Libre (lb)             | 0.4536kg            |
+|                       | Ounces (oz)             | Ons (oz)               | 0.02835kg           |
 
 ---
 
