@@ -99,16 +99,18 @@ class QuizEngine {
         }
 
         // Define sensible base unit ranges
-        let valueInBase: Double
+        var valueInBase: Double
         switch category {
         case .distance:
-            valueInBase = Double.random(in: 0.001...100_000) // meters
+            valueInBase = Double.random(in: 0.01...100_000) // meters
         case .speed:
             valueInBase = Double.random(in: 0.1...50) // m/s
         case .directionAndAngle:
             valueInBase = Double.random(in: 0.01...360) // degrees
         case .time:
             valueInBase = Double(Int.random(in: 1...172_800)) // seconds
+        case .mass:
+            valueInBase = Double.random(in: 0.5...30_000) // kilograms
         }
 
         // Convert base value to fromUnit
@@ -118,7 +120,10 @@ class QuizEngine {
         }
 
         let fromValue = (valueInBase / fromFactor).rounded(.toNearestOrAwayFromZero)
-        let valueInBaseRounded = fromValue * fromFactor
+        var valueInBaseRounded = fromValue * fromFactor
+        if valueInBaseRounded == 0 {
+            valueInBaseRounded = 1;
+        }
         let correctAnswer = valueInBaseRounded / toFactor
 
         // Build question text

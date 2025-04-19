@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		076E78B92DB27C0F00951BB6 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 076E78B72DB27C0900951BB6 /* LICENSE */; };
 		07D11FC92DB2D26A002FFE37 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 07D11FC82DB2D266002FFE37 /* README.md */; };
+		07D55F5E2DB41E85008403EB /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 07D55F5D2DB41E81008403EB /* .gitignore */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,10 +31,17 @@
 
 /* Begin PBXFileReference section */
 		076E78B72DB27C0900951BB6 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		07BCCA062DB1667000A1FFEE /* FathomIt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FathomIt.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		07D11FB02DB2C0FD002FFE37 /* FathomItTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FathomItTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		07D11FB12DB2C0FD002FFE37 /* FathomItUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FathomItUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		07BCCA062DB1667000A1FFEE /* FathomIt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = FathomIt.app; path = /Users/karahanbuhan/Desktop/FathomIt/build/Debug/FathomIt.app; sourceTree = "<absolute>"; };
+		07D11FB02DB2C0FD002FFE37 /* FathomItTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = FathomItTests.xctest; path = /Users/karahanbuhan/Desktop/FathomIt/build/Debug/FathomIt.app/Contents/PlugIns/FathomItTests.xctest; sourceTree = "<absolute>"; };
+		07D11FB12DB2C0FD002FFE37 /* FathomItUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = FathomItUITests.xctest; path = "/Users/karahanbuhan/Desktop/FathomIt/build/Debug/FathomItUITests-Runner.app/Contents/PlugIns/FathomItUITests.xctest"; sourceTree = "<absolute>"; };
 		07D11FC82DB2D266002FFE37 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		07D55F542DB41E68008403EB /* arm64-apple-macos.swiftsourceinfo */ = {isa = PBXFileReference; lastKnownFileType = file; path = "arm64-apple-macos.swiftsourceinfo"; sourceTree = "<group>"; };
+		07D55F562DB41E68008403EB /* arm64-apple-macos.swiftdoc */ = {isa = PBXFileReference; lastKnownFileType = file; path = "arm64-apple-macos.swiftdoc"; sourceTree = "<group>"; };
+		07D55F572DB41E68008403EB /* arm64-apple-macos.swiftmodule */ = {isa = PBXFileReference; lastKnownFileType = file; path = "arm64-apple-macos.swiftmodule"; sourceTree = "<group>"; };
+		07D55F582DB41E68008403EB /* arm64-apple-macos.abi.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "arm64-apple-macos.abi.json"; sourceTree = "<group>"; };
+		07D55F5A2DB41E68008403EB /* FathomIt.app */ = {isa = PBXFileReference; lastKnownFileType = wrapper.application; path = FathomIt.app; sourceTree = "<group>"; };
+		07D55F5B2DB41E68008403EB /* FathomIt.app.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; path = FathomIt.app.dSYM; sourceTree = "<group>"; };
+		07D55F5D2DB41E81008403EB /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -72,6 +80,7 @@
 		07BCC9FD2DB1667000A1FFEE = {
 			isa = PBXGroup;
 			children = (
+				07D55F5D2DB41E81008403EB /* .gitignore */,
 				07D11FC82DB2D266002FFE37 /* README.md */,
 				07BCCA082DB1667000A1FFEE /* FathomIt */,
 				07BCCA072DB1667000A1FFEE /* Products */,
@@ -82,12 +91,40 @@
 		07BCCA072DB1667000A1FFEE /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				07BCCA062DB1667000A1FFEE /* FathomIt.app */,
-				07D11FB02DB2C0FD002FFE37 /* FathomItTests.xctest */,
-				07D11FB12DB2C0FD002FFE37 /* FathomItUITests.xctest */,
+				07D55F5C2DB41E68008403EB /* Release */,
 			);
 			name = Products;
 			sourceTree = "<group>";
+		};
+		07D55F552DB41E68008403EB /* Project */ = {
+			isa = PBXGroup;
+			children = (
+				07D55F542DB41E68008403EB /* arm64-apple-macos.swiftsourceinfo */,
+			);
+			path = Project;
+			sourceTree = "<group>";
+		};
+		07D55F592DB41E68008403EB /* FathomIt.swiftmodule */ = {
+			isa = PBXGroup;
+			children = (
+				07D55F552DB41E68008403EB /* Project */,
+				07D55F562DB41E68008403EB /* arm64-apple-macos.swiftdoc */,
+				07D55F572DB41E68008403EB /* arm64-apple-macos.swiftmodule */,
+				07D55F582DB41E68008403EB /* arm64-apple-macos.abi.json */,
+			);
+			path = FathomIt.swiftmodule;
+			sourceTree = "<group>";
+		};
+		07D55F5C2DB41E68008403EB /* Release */ = {
+			isa = PBXGroup;
+			children = (
+				07D55F592DB41E68008403EB /* FathomIt.swiftmodule */,
+				07D55F5A2DB41E68008403EB /* FathomIt.app */,
+				07D55F5B2DB41E68008403EB /* FathomIt.app.dSYM */,
+			);
+			name = Release;
+			path = "/Users/karahanbuhan/Library/Developer/Xcode/DerivedData/FathomIt-gotomykzumglwydxsnjcsvcnrwty/Build/Products/Release";
+			sourceTree = "<absolute>";
 		};
 /* End PBXGroup section */
 
@@ -204,6 +241,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				07D55F5E2DB41E85008403EB /* .gitignore in Resources */,
 				07D11FC92DB2D26A002FFE37 /* README.md in Resources */,
 				076E78B92DB27C0F00951BB6 /* LICENSE in Resources */,
 			);

@@ -2,7 +2,7 @@ import Foundation
 
 class ConversionEngine {
     enum UnitCategory: String, CaseIterable {
-        case distance, speed, directionAndAngle, time
+        case distance, speed, directionAndAngle, time, mass
     }
     
     static let unitCategories: [UnitCategory: [String: Double]] = [
@@ -37,6 +37,15 @@ class ConversionEngine {
             "seconds": 1,
             "arc_minutes": 4,
             "arc_degrees": 240
+        ],
+        .mass: [
+            "metric_ton": 1000,
+            "kilogram": 1,
+            "gram": 0.001,
+            "long_ton": 1016.0469088,
+            "short_ton": 907.18474,
+            "pound": 0.45359237,
+            "ounce": 0.0283495
         ]
     ]
     

@@ -160,13 +160,13 @@
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "FathomIt (v1.0.0)"
+            "value" : "FathomIt (v1.1.0)"
           }
         },
         "tr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "KulaçAç (v1.0.0)"
+            "value" : "KulaçAç (v1.1.0)"
           }
         }
       }
@@ -307,6 +307,23 @@
         }
       }
     },
+    "unit.gram" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "g (Gram)"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "g (Gram)"
+          }
+        }
+      }
+    },
     "unit.hours" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -341,6 +358,23 @@
         }
       }
     },
+    "unit.kilogram" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "kg (Kilogram)"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "kg (Kilogram)"
+          }
+        }
+      }
+    },
     "unit.kilometers" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -364,13 +398,13 @@
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "km/h"
+            "value" : "km/h (Kilometers per hour)"
           }
         },
         "tr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "km/sa"
+            "value" : "km/sa (Kilometre bölü saat)"
           }
         }
       }
@@ -388,6 +422,23 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "kn (Knot)"
+          }
+        }
+      }
+    },
+    "unit.long_ton" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "LT (Long Ton)"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "LT (Uzun Ton)"
           }
         }
       }
@@ -415,13 +466,30 @@
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "m/s"
+            "value" : "m/s (Meters per second)"
           }
         },
         "tr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "m/sn"
+            "value" : "m/sn (Metre bölü saniye)"
+          }
+        }
+      }
+    },
+    "unit.metric_ton" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "t (Tonne)"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "t (Ton)"
           }
         }
       }
@@ -449,13 +517,13 @@
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "mph"
+            "value" : "mph (Miles per hour)"
           }
         },
         "tr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "mil/sa"
+            "value" : "mil/sa (Mil bölü saat)"
           }
         }
       }
@@ -490,6 +558,40 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "NM (Deniz Mili)"
+          }
+        }
+      }
+    },
+    "unit.ounce" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "oz (Ounce)"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "oz (Ons)"
+          }
+        }
+      }
+    },
+    "unit.pound" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "lb (Pound)"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "lb (Libre)"
           }
         }
       }
@@ -558,6 +660,23 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : " Kilit"
+          }
+        }
+      }
+    },
+    "unit.short_ton" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ST (Short Ton)"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ST (Kısa Ton)"
           }
         }
       }
