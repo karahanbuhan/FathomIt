@@ -28,7 +28,7 @@ class ConversionEngine {
             "angle_degrees": 1,
             "angle_minutes": 1.0 / 60,
             "angle_seconds": 1.0 / 3600,
-            "rhumb": 11.25,
+            "point": 11.25,
             "quarter": 90
         ],
         .time: [

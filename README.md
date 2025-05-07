@@ -49,7 +49,7 @@ A bilingual reference for all units supported in FathomIt.
 | **Angle / Direction** | Degrees (°)             | Derece (°)             | 1°                  |
 |                       | Minutes (')             | Dakika (Açı)           | 1/60°               |
 |                       | Seconds (")             | Saniye (Açı)           | 1/3600°             |
-|                       | Rhumb                   | Kerte                  | 11.25°              |
+|                       | Point                   | Kerte                  | 11.25°              |
 |                       | Quarter                 | Rubu                   | 90°                 |
 | **Mass**              | Grams (g)               | Gram (g)               | 0.001kg             |
 |                       | Kilograms (kg)          | Kilogram (kg)          | 1kg                 |

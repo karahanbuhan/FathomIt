@@ -579,6 +579,23 @@
         }
       }
     },
+    "unit.point" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : " Point(s)"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : " Kerte"
+          }
+        }
+      }
+    },
     "unit.pound" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -609,23 +626,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : " Rubu"
-          }
-        }
-      }
-    },
-    "unit.rhumb" : {
-      "extractionState" : "manual",
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : " Rhumb"
-          }
-        },
-        "tr" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : " Kerte"
           }
         }
       }
